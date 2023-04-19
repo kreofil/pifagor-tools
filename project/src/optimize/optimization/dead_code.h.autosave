@@ -1,0 +1,11 @@
+#ifndef DEAD_CODE_H
+#define DEAD_CODE_H
+
+namespace dfg::optimization {
+namespace  {
+
+
+}
+}
+
+#endif // DEAD_CODE_H

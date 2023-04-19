@@ -1,0 +1,12 @@
+#ifndef FIND_NODES_H
+#define FIND_NODES_H
+
+#include "dfg.h"
+
+namespace dfg {
+  std::list<Inode*> find_nodes(DFG* dfg, Inode::Type type);
+  std::list<Inode*> find_nodes(DFG* dfg, Inode::Type type, Inode::value value);
+}
+
+
+#endif // FIND_NODES_H
